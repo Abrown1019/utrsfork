@@ -1,6 +1,6 @@
-# UTRS 2.0
+# UTRS Fork
 
-## Getting UTRS2 working in a dev environment
+## Getting UTRS Fork working in a dev environment
 
 1. Clone into a directory
 2. composer install
