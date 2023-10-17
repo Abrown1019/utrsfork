@@ -42,10 +42,10 @@ php artisan migrate:fresh --seed
 Resetting your database will get rid of your user account and all of its permissions. You will find few `.env` variables to help with this:
 ```dotenv
 # for seeding:
-DEVELOPER_USER_NAME=""
-DEVELOPER_USER_GRANT_ADMIN=""
-DEVELOPER_USER_GRANT_TOOLADMIN=""
-DEVELOPER_USER_GRANT_DEVELOPER=""
+DEVELOPER_USER_NAME="Abrown1019"
+DEVELOPER_USER_GRANT_ADMIN="enwiki"
+DEVELOPER_USER_GRANT_TOOLADMIN="enwiki"
+DEVELOPER_USER_GRANT_DEVELOPER="true"
 ```
 
 If you set `DEVELOPER_USER_NAME` to your user name, that user will automatically created. You can then set
